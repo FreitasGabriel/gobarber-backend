@@ -9,7 +9,7 @@ interface IRequest {
     date: Date
 }
 
-@injectable
+@injectable()
 class CreateAppointmentService {
     constructor(
         @inject('AppointmentsRepository')
