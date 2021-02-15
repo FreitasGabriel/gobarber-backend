@@ -17,7 +17,7 @@ interface IRequest {
 @injectable()
 class ResetPasswordService {
     constructor(
-        @inject('IUsersRepository')
+        @inject('UsersRepository')
         private usersRepostirory: IUsersRepository,
 
         @inject('UserTokensRepository')
